@@ -1,0 +1,135 @@
+.main{
+    height: 400px;
+    width: 450px;
+    border: 1px solid black;
+    background-color: rgb(223, 123, 53);
+    position: relative;   
+}
+
+div{
+    float: left;
+    text-align: center;
+    /* margin: 0px; */
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 5px 5px 5px 5px ;
+}
+
+.header{
+    height: 100px;
+    width: 347px;
+    color: white;
+    border: 2px solid black;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    
+}
+
+.panel{
+    height: 225px;
+    width: 100px;
+    border: 1px solid black;
+    clear: left;
+    z-index: 1;
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px 15px;
+    z-index: 0px;
+    box-shadow: 
+                5px 5px 9px rgb(53, 56, 53),  
+                -5px 5px 9px rgb(49, 54, 49), 
+                5px -5px 9px rgb(49, 54, 49),  
+                -5px -5px 9px rgb(49, 54, 49); 
+    margin: 5px;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px 15px;
+    margin: 5px;
+    z-index: 0px;
+    box-shadow: 
+                5px 5px 9px rgb(53, 56, 53),  
+                -5px 5px 9px rgb(49, 54, 49), 
+                5px -5px 9px rgb(49, 54, 49),  
+                -5px -5px 9px rgb(49, 54, 49);
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px 15px;
+    z-index: 0px;
+    margin: 5px;
+    box-shadow: 
+                5px 5px 9px rgb(53, 56, 53),  
+                -5px 5px 9px rgb(49, 54, 49), 
+                5px -5px 9px rgb(49, 54, 49),  
+                -5px -5px 9px rgb(49, 54, 49);
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    z-index: 0;
+    border-radius: 15px 15px;
+    margin: 5px;
+    box-shadow: 
+                5px 5px 9px rgb(53, 56, 53),  
+                -5px 5px 9px rgb(49, 54, 49), 
+                5px -5px 9px rgb(49, 54, 49),  
+                -5px -5px 9px rgb(49, 54, 49);
+}
+.div5{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    z-index: 0;
+    border-radius: 15px 15px;
+    margin: 5px;
+    box-shadow: 
+    5px 5px 9px rgb(53, 56, 53),  
+    -5px 5px 9px rgb(49, 54, 49), 
+    5px -5px 9px rgb(49, 54, 49),  
+    -5px -5px 9px rgb(49, 54, 49);
+}
+.div5:hover{
+    background-color: rgb(76, 76, 134);
+    border-color: snow;
+    
+}
+
+.div6{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    z-index: 0;
+    border-radius: 15px 15px;
+    margin: 5px;
+    box-shadow: 
+                5px 5px 9px rgb(53, 56, 53),  
+                -5px 5px 9px rgb(49, 54, 49), 
+                5px -5px 9px rgb(49, 54, 49),  
+                -5px -5px 9px rgb(49, 54, 49);
+}
+.footer {
+    height: 70px;
+    width: 450px;
+    border: 2px solid black;
+    clear: left;
+    margin: -2px;
+    z-index: 2;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.main{
+    position: relative;
+    justify-content: center;
+}
+
+ul{
+    /* float: left; */
+    
+}
+
+li{
+    float: inline-start;
+    list-style: none;
+}
+
+.pr{
+    position: absolute;
+}

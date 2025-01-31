@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task-1</title>
+
+    <script>
+        function validation() {
+            var na = document.ragistration.name.value;
+            if (na == "") {
+                document.getElementById("name_er").innerHTML = "* Enter Name";
+                return false;
+            }
+            else {
+                document.getElementsById("name_er").innerHTML = "";
+            }
+
+            var lna = document.ragistration.lname.value;
+            if (lna == "") {
+                document.getElementById("lname_er").innerHTML = "* Enter Last Name";
+                return false;
+            }
+            else {
+                document.getElementsById("lname_er").innerHTML = "";
+            }
+
+            var add = document.ragistration.address.value;
+            if (add == "") {
+                document.getElementById("add_er").innerHTML = "* Enter Address";
+                return false;
+            }
+            else {
+                document.getElementsById("add_er").innerHTML = "";
+            }
+
+            var city = document.ragistration.city.selectedIndex;
+            if (city == "") {
+                document.getElementById("city_er").innerHTML = "* Select City";
+                return false;
+            }
+            else {
+                document.getElementsById("city_er").innerHTML = "";
+            }
+
+        }
+    </script>
+</head>
+
+<body bgcolor="black" text="white">
+    <table style="background-color: DarkGrey;" align="center">
+        <form method="post" name="ragistration" onsubmit="return validation()">
+            <tr>
+                <td colspan="3" style="color: red;">Request a cart</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="color: red;">..............</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Infinity fare save big string with 10% off your first purchase.</td>
+            </tr>
+
+            <tr>
+                <td style="color: blue;">Name</td>
+                <td style="color: blue;">Last Name</td>
+                <td style="color: red;" id="name_er"></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="name" id="name"></td>
+                <td><input type="text" name="Last" id="lname"></td>
+                <td style="color: red;" id="lname_er"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="color: blue;">Address</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><textarea name="address" id="addr"></textarea></td>
+                <td><span style="color: red;" id="add_er"></span></td>
+            </tr>
+            <tr>
+                <td style="color: blue;" id="city_err">City</td>
+                <td style="color: blue;">State</td>
+                <td style="color: blue;">Zip Code</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <select name="city" id="ct">
+                        <option>--Select--</option>
+                        <option>City1</option>
+                        <option>City2</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="state" id="st">
+                        <option>--Select--</option>
+                        <option>State1</option>
+                        <option>State2</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" name="code">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="color: blue;">Telephone*</td>
+                <td style="color: blue;">Email*</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Telephone">
+                </td>
+                <td>
+                    <input type="text" name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    *Requried fields
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3">
+                    <input name="save" type="submit"></button>
+                    Or
+                    <button name="Cancel">Cancel</button>
+                </td>
+            </tr>
+
+
+        </form>
+
+    </table>
+
+</body>
+
+</html>
