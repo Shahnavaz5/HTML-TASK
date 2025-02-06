@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.main{
+    top : 0px;
+}
+
+.detail_header{
+    height: 40px;
+    display: flex;
+    background: #45332b;
+    margin: 0px;
+    font: 14px sans-serif;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+
+}
+
+.inf{
+    display: flex;
+    padding: 13px;
+}
+
+#targetLanguage{
+    margin: 12px 0px 0px 850px;
+    font: 14px sans-serif;
+}
+
+.main_header{
+        position: relative;
+        display: inline-block;
+        /* max-width: 100%; */
+}
+
+.main_header .upper_header{
+    position: relative;
+    background-color: #fff;
+    z-index: 99999;
+}
+
+.upper_header{
+    padding: 20px 0px;
+}
+
+.logo a img{
+    height: 75px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.header_right{
+    
+}
+
+.right_img{
+    position: relative;
+    float: left;
+    padding-left: 60px;
+    margin-left: 1050px;
+    min-height: 50px;
+    margin-top: -70px;
+    
+}
+
+.right_img img{
+    display: inline-block;
+    max-width: 100%;
+    height: 68px;
+    margin-right: 6px;
+}
+
+.lower_header{
+    position: static;
+    width: 1520px;
+}
+
+.navbar {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #45332b; 
+    margin-top: 0 35px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li{
+    padding: 15px 0;
+    margin: 0 15px ;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu-icon {
+    padding: 20px;
+   /* margin-right: 30px; */
+}
+
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c18d53;
+    color: #fff;
+    padding: 0 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.slider {
+    width: 100%;
+    max-width: 1520px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    width: 400%;
+    white-space: nowrap;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* flex: 0 0 auto; */
+}
+
+/* Navigation Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background:transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    color: lavender;
+}
